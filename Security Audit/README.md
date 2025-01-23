@@ -1,3 +1,5 @@
 # Security-Audit
 
-A test 
+A security audit created for a company named Botium Toys. In this we are given a file listing out the scope, goals assets and risk assessment of the current conditions of the Botium Toys company. This is all listed in the file "Botium Toys_ Scope, goals, and risk assessment report.pdf." After a thorough analysis of these key factors, we go through a checklist to see whether or not Botium Toys follows regulations to ensure that they have controls and compliance practices in place to ensure the safety of the company and user assets. The file "Controls and compliance checklist.pdf" shows this checklist and includes a section of recommendations for the company afterwards to ensure that all the best security controls and practices are up to standard.
+
+This activity shows a baseline understanding of how to analyze a risk assessment and to connect that to a controls and compliance checklist to see whether or not the Botium Toys company meet a certain standard. It shows an understanding of Security controls and Compliances that are used and checked in a real scenario.
