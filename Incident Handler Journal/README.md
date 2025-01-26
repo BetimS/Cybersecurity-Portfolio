@@ -10,28 +10,28 @@ The Incident Handler Journal simulates a real-world cybersecurity scenario. It d
 
 1. Incident Details:
 
-    -Description of the incident, including type (e.g., phishing, malware, unauthorized access).
+   -  Description of the incident, including type (e.g., phishing, malware, unauthorized access).
 
-    -Timeline of events leading up to and during the incident.
+   -  Timeline of events leading up to and during the incident.
 
 2. Analysis and Impact Assessment:
 
-    -Root cause analysis to determine how the incident occurred.
+   -  Root cause analysis to determine how the incident occurred.
 
-    -Identification of affected systems and data.
+   -  Identification of affected systems and data.
 
-    -Assessment of potential business and operational impact.
+   -  Assessment of potential business and operational impact.
 
 3. Response Actions:
 
-    -Step-by-step actions taken to mitigate the incident.
+   -  Step-by-step actions taken to mitigate the incident.
 
-    -Implementation of immediate containment measures.
+   -  Implementation of immediate containment measures.
 
-    -Details on remediation efforts to prevent recurrence.
+   -  Details on remediation efforts to prevent recurrence.
 
 4. Lessons Learned:
 
-    -Insights gained from handling the incident.
+   -  Insights gained from handling the incident.
 
-    -Recommendations for improving incident response processes.
+   -  Recommendations for improving incident response processes.
