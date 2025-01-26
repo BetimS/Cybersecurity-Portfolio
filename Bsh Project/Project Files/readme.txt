@@ -28,6 +28,3 @@ The linux commands was the most complex portion of the project. This was because
 the value of that variable. After this I needed to go through all the string and constantly seperating with every ":"
 and seeing if that path results in an executable using the command access(). If this is true we give the task of
 executing the linux command to a child process so the result doesn't stop our bsh program.
-
-I did not do any of the extra credit.
-
