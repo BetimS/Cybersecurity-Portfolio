@@ -4,51 +4,51 @@ A custom shell implementation in C built on a UMB Unix server and tested on Linu
 
 ## Key Features
 
-1.Environment Variable Management
+1. Environment Variable Management
 
--```env```: Displays the current environment variables.
+   -  ```env```: Displays the current environment variables.
 
--```setenv```: Sets a new environment variable or updates an existing one.
+   -  ```setenv```: Sets a new environment variable or updates an existing one.
 
--```unsetenv```: Removes an environment variable.
+   -  ```unsetenv```: Removes an environment variable.
 
-2.Directory Navigation
+2. Directory Navigation
 
--```cd```: Changes the current working directory. Handles edge cases like navigating to ~ (home directory) or no argument (default to home).
+   -  ```cd```: Changes the current working directory. Handles edge cases like navigating to ~ (home directory) or no argument (default to home).
 
-3.Command History
+3. Command History
 
--Tracks previously entered commands and prints them on request.
+   -  Tracks previously entered commands and prints them on request.
 
 4.Executing Linux Commands
 
--Supports executing built-in Linux commands by identifying paths in the ```PATH``` environment variable and using ```access()```.
+   -  Supports executing built-in Linux commands by identifying paths in the ```PATH``` environment variable and using ```access()```.
 
 ## Implementation Details
 
--```env```:
+- ```env```:
 
---Stored strings into an array instead of printing directly.
+   -  Stored strings into an array instead of printing directly.
 
--```setenv```:
+- ```setenv```:
 
--- Added logic to create new variables or overwrite existing ones by parsing strings using "=" as a delimiter.
+   -  Added logic to create new variables or overwrite existing ones by parsing strings using "=" as a delimiter.
 
--```unsetenv```:
+- ```unsetenv```:
 
--- Removed variables by reusing search logic from setenv and reassigning pointers to maintain array structure.
+   -  Removed variables by reusing search logic from setenv and reassigning pointers to maintain array structure.
 
--```cd```:
+- ```cd```:
 
--- Implemented logic to handle null, ~, or specific directory arguments using ```chdir()``` and ```getcwd()``` system calls.
+   -  Implemented logic to handle null, ~, or specific directory arguments using ```chdir()``` and ```getcwd()``` system calls.
 
--```history```:
+- ```history```:
 
--- Maintained a dynamic array to store commands and printed them with a loop.
+   -  Maintained a dynamic array to store commands and printed them with a loop.
 
--Linux Commands:
+- Linux Commands:
 
--- Used ```access()``` to check executability of commands in directories listed in ```PATH``` and forked processes for execution to prevent blocking the shell.
+   -  Used ```access()``` to check executability of commands in directories listed in ```PATH``` and forked processes for execution to prevent blocking the shell.
 
 ## How to Run
 1. Clone the repository:
@@ -80,16 +80,16 @@ bsh> ls -la
 
 ## Technologies Used
 
--Language: C
+- Language: C
 
--Environment: Linux, UMB Unix Server
+- Environment: Linux, UMB Unix Server
 
--Concepts: Environment variables, dynamic memory allocation, process forking, and system calls.
+- Concepts: Environment variables, dynamic memory allocation, process forking, and system calls.
 
 ## Learning Outcomes
 
--Deepened my understanding of shell internals and process management.
+- Deepened my understanding of shell internals and process management.
 
--Improved skills in C programming and debugging on Linux systems.
+- Improved skills in C programming and debugging on Linux systems.
 
--Gained hands-on experience with system calls like chdir, getcwd, fork, and access.
+- Gained hands-on experience with system calls like chdir, getcwd, fork, and access.
