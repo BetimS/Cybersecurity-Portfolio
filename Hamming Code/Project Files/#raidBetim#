@@ -1,0 +1,67 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+void char2bits(char c, unsigned char bits[8]) {
+  for (int i = 0; i < 8; i ++) {
+      bits[i] = (c >> (7 - i)) & 1;
+        }
+	}
+
+int main(int argc, char* argv[]){
+    FILE* infile, outfileP1, outfileP2, outfileD1, outfileP3, outfileD2, outfileD3, outfileD4;
+        infile = fopen(argv[2], "r");
+	    outfileP1 = fopen(strcat(argv[2], ".part0"), "w");
+	        outfileP2 = fopen(strcat(argv[2], ".part1"), "w");
+		    outfileD1 = fopen(strcat(argv[2], ".part2"), "w");
+		        outfileP3 = fopen(strcat(argv[2], ".part3"), "w");
+			    outfileD2 = fopen(strcat(argv[2], ".part4"), "w");
+			        outfileD3 = fopen(strcat(argv[2], ".part5"), "w");
+				    outfileD4 = fopen(strcat(argv[2], ".part6"), "w");
+				        char c;
+
+  while(c != EOF){
+    c = fgetc(infile);
+      unsigned char bits[8];
+        unsigned int intBits[8];
+
+  char2bits(c, bits);
+
+  for (int i = 0; i < 8; i++) {
+      intBits[i] = (int)bits[i];
+        }
+	    fputc((intBits[0] ^ intBits[1] ^ intBits[3]), outfileP1);
+	            //printf("%i", intBits[0] ^ intBits[1] ^ intBits[3]);
+		        fputc((intBits[0] ^ intBits[2] ^ intBits[3]), outfileP2);
+			        //printf("%i", intBits[0] ^ intBits[2] ^ intBits[3]);
+				    fputc(intBits[0], outfileD1);
+				            //printf("%i", intBits[0]);
+					        fputc((intBits[1] ^ intBits[2] ^ intBits[3]), outfileP3)
+						        //printf("%i", intBits[1] ^ intBits[2] ^ intBits[3]);
+							    fputc(intBits[1], outfileD2);
+							            //printf("%i", intBits[1]);
+								        fputc(intBits[2], outfileD3);
+									        //printf("%i", intBits[3]);
+										    fputc(intBits[3], outfileD4);
+
+
+    fputc((intBits[4] ^ intBits[5] ^ intBits[7]), outfileP1);
+        fputc((intBits[4] ^ intBits[6] ^ intBits[7]), outfileP2);
+	    fputc(intBits[4], outfileD1);
+	        fputc((intBits[5] ^ intBits[6] ^ intBits[7]), outfileP3)
+		    fputc(intBits[5], outfileD2);
+		        fputc(intBits[6], outfileD3);
+			    fputc(intBits[7], outfileD4);
+			      }
+			        fclose(infile);
+				  fclose(outfileP1);
+				    fclose(outfileP2);
+				      fclose(outfileD1);
+				        fclose(outfileP3);
+					  fclose(outfileD2);
+					    fclose(outfileD3);
+					      fclose(outfileD4);
+
+  return 0;
+  }
