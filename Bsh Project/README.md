@@ -52,42 +52,44 @@ A custom shell implementation in C built on a UMB Unix server and tested on Linu
 
 ## How to Run
 1. Clone the repository:
-
+```
   git clone https://github.com/yourusername/bsh-terminal.git
-  
+  ```
 2. Navigate to the project directory:
-   
-   cd bsh-terminal
-   
+```
+cd bsh-terminal
+```
 3. Compile the program:
-
-   gcc bsh.c -o bsh
-   
+```
+gcc bsh.c -o bsh
+```
 4. Run the shell
-    
-   ./bsh
-
+```
+./bsh
+```
 ## Example Commands
 
+```
 bsh> env
 bsh> setenv MY_VAR my_value
 bsh> unsetenv MY_VAR
 bsh> cd ~/Documents
 bsh> history
 bsh> ls -la
+```
 
 ## Technologies Used
 
-Language: C
+-Language: C
 
-Environment: Linux, UMB Unix Server
+-Environment: Linux, UMB Unix Server
 
-Concepts: Environment variables, dynamic memory allocation, process forking, and system calls.
+-Concepts: Environment variables, dynamic memory allocation, process forking, and system calls.
 
 ## Learning Outcomes
 
-Deepened my understanding of shell internals and process management.
+-Deepened my understanding of shell internals and process management.
 
-Improved skills in C programming and debugging on Linux systems.
+-Improved skills in C programming and debugging on Linux systems.
 
-Gained hands-on experience with system calls like chdir, getcwd, fork, and access.
+-Gained hands-on experience with system calls like chdir, getcwd, fork, and access.
