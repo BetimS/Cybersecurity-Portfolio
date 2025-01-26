@@ -32,7 +32,7 @@ The program operates on an input text file provided by the user and produces a r
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/hamming-code-project.git
+git clone https://github.com/BetimS/Cybersecurity-Portfolio/tree/main/Hamming%20Code/Project%20Files
 ```
 2. Navigate to the project directory:
 ```
