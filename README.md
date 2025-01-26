@@ -7,31 +7,46 @@ I am an aspiring cybersecurity analyst with a strong foundation in computer scie
 
 ## Featured Projects
 ### 1. SQL Filter Queries
--Analyzed and retrieved data using SQL queries.
+- Analyzed and retrieved data using SQL queries.
 
--Focused on filtering, anomaly detection, and data aggregation for cybersecurity applications.
+- Focused on filtering, anomaly detection, and data aggregation for cybersecurity applications.
   
--Demonstrated proficiency in using SQL for log analysis and threat identification.
+- Demonstrated proficiency in using SQL for log analysis and threat identification.
   
-### 2. HTTP GET/Response Interaction
--Explored browser-server interactions through HTTP protocols.
+### 2. Wireshark Lab
+- Explored browser-server interactions through HTTP protocols.
   
--Analyzed basic and conditional GET requests and their role in optimizing resource usage.
+- Analyzed basic and conditional GET requests and their role in optimizing resource usage.
   
--Demonstrated understanding of HTTP headers, status codes, and efficient communication.
+- Demonstrated understanding of HTTP headers, status codes, and efficient communication.
+
+### 3. Bsh Project
+- Recreated the basic shell (bsh) on a Unix server at UMB.
+
+- Technologies: Unix/Linux commands, Shell scripting (Bash)
+
+### 4. Incident HAndlers Journal
+- Documented incident response scenarios and best practices as part of the Google Cybersecurity Professional Certificate.
+
+- Technologies: Cybersecurity concepts, Incident Response methodologies
+
+### 5. Hamming Code Program
+- Developed a program to simulate error detection and correction using Hamming's code.
+
+- Technologies: C programming, Error detection and correction algorithms
 
 ## Skills and Expertise
-Cybersecurity: Threat analysis, incident response, vulnerability assessment, and security monitoring.
+- Cybersecurity: Threat analysis, incident response, vulnerability assessment, and security monitoring.
 
-Technical Tools: Wireshark, Splunk, Nessus, Metasploit, and Burp Suite.
+- Technical Tools: Wireshark, Splunk, Nessus, Metasploit, and Burp Suite.
 
-Networking: Proficient in TCP/IP, DNS, VPNs, and firewall configuration.
+- Networking: Proficient in TCP/IP, DNS, VPNs, and firewall configuration.
 
-Programming: Python, Bash, PowerShell, and SQL.
+- Programming: Python, Bash, PowerShell, and SQL.
 
-Frameworks: NIST Cybersecurity Framework, ISO 27001, and GDPR.
+- Frameworks: NIST Cybersecurity Framework, ISO 27001, and GDPR.
 
-Cloud Security: Familiarity with AWS and Google Cloud security best practices.
+- Cloud Security: Familiarity with AWS and Google Cloud security best practices.
 
 ## Certifications
 Google Cybersecurity Professional Certificate
