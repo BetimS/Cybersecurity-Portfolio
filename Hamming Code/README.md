@@ -16,17 +16,17 @@ The program operates on an input text file provided by the user and produces a r
 
 1. File Partitioning and Encoding (diarBetim):
 
-    -Reads the input file an input text file.
+   -  Reads the input file an input text file.
 
-    -Applies Hamming code to partition and encode the data.
+   -  Applies Hamming code to partition and encode the data.
 
 2. Error Detection and Correction (raidBetim):
 
-    -Checks for errors in the encoded data.
+   -  Checks for errors in the encoded data.
 
-    -Corrects errors and reconstructs the original file.
+   -  Corrects errors and reconstructs the original file.
 
-    -Produces a file ```<input_file.txt>.2``` for comparison with the original.
+   -  Produces a file ```<input_file.txt>.2``` for comparison with the original.
 
 ## How to Run
 
