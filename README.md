@@ -43,9 +43,9 @@ Feel free to reach out to discuss my work or opportunities:
 
 Email: betimsejdiu0923@gmail.com
 
-LinkedIn: [LinkedIn](https://www.linkedin.com/in/betim-sejdiu-35536b268/)
+[LinkedIn](https://www.linkedin.com/in/betim-sejdiu-35536b268/)
 
-GitHub: [Github](https://github.com/BetimS)
+[Github](https://github.com/BetimS)
 
 ## Purpose
 This portfolio reflects my commitment to continuous learning and improvement in the field of cybersecurity. It serves as a showcase of my skills, projects, and readiness to tackle challenges in securing modern digital environments.
