@@ -6,11 +6,11 @@ A custom shell implementation in C built on a UMB Unix server and tested on Linu
 
 1.Environment Variable Management
 
--env: Displays the current environment variables.
+-```env```: Displays the current environment variables.
 
--setenv: Sets a new environment variable or updates an existing one.
+-```setenv```: Sets a new environment variable or updates an existing one.
 
--unsetenv: Removes an environment variable.
+-```unsetenv```: Removes an environment variable.
 
 2.Directory Navigation
 
@@ -26,35 +26,35 @@ A custom shell implementation in C built on a UMB Unix server and tested on Linu
 
 ## Implementation Details
 
--env:
+-```env```:
 
 --Stored strings into an array instead of printing directly.
 
--setenv:
+-```setenv```:
 
 -- Added logic to create new variables or overwrite existing ones by parsing strings using "=" as a delimiter.
 
--unsetenv:
+-```unsetenv```:
 
 -- Removed variables by reusing search logic from setenv and reassigning pointers to maintain array structure.
 
--cd:
+-```cd```:
 
--- Implemented logic to handle null, ~, or specific directory arguments using chdir() and getcwd() system calls.
+-- Implemented logic to handle null, ~, or specific directory arguments using ```chdir()``` and ```getcwd()``` system calls.
 
--history:
+-```history```:
 
 -- Maintained a dynamic array to store commands and printed them with a loop.
 
 -Linux Commands:
 
--- Used access() to check executability of commands in directories listed in PATH and forked processes for execution to prevent blocking the shell.
+-- Used ```access()``` to check executability of commands in directories listed in PATH and forked processes for execution to prevent blocking the shell.
 
 ## How to Run
 1. Clone the repository:
 ```
-  git clone https://github.com/yourusername/bsh-terminal.git
-  ```
+  git clone https://github.com/BetimS/Cybersecurity-Portfolio/tree/main/Bsh%20Project/Project%20Files
+```
 2. Navigate to the project directory:
 ```
 cd bsh-terminal
