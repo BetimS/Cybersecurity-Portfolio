@@ -5,27 +5,27 @@ This project demonstrates my understanding of HTTP protocols, focusing on the an
 ## Objective
 The objective of this project was to:
 
-Analyze basic HTTP GET/response interactions between a browser and a server.
+- Analyze basic HTTP GET/response interactions between a browser and a server.
 
-Explore and understand the HTTP Conditional GET mechanism.
+- Explore and understand the HTTP Conditional GET mechanism.
 
-Interpret HTTP request and response headers, including status codes, to understand server behavior.
+- Interpret HTTP request and response headers, including status codes, to understand server behavior.
 
 ## Skills Demonstrated
-Understanding HTTP communication, including basic and conditional GET methods.
+- Understanding HTTP communication, including basic and conditional GET methods.
 
-Analyzing request and response headers for key insights.
+- Analyzing request and response headers for key insights.
 
-Identifying and interpreting HTTP status codes (200 OK and 304 Not Modified).
+- Identifying and interpreting HTTP status codes (200 OK and 304 Not Modified).
 
-Practical application of conditional requests to optimize server resource usage.
+- Practical application of conditional requests to optimize server resource usage.
 
 ## Tools Used
-<u>Browser Developer Tools:</u> Used to inspect HTTP requests and responses.
+- <u>Browser Developer Tools:</u> Used to inspect HTTP requests and responses.
 
-<u>Wireshark:</u> Employed for capturing and analyzing HTTP traffic.
+- <u>Wireshark:</u> Employed for capturing and analyzing HTTP traffic.
 
-<u>Server Environment:</u> Interaction with the gaia.cs.umass.edu server.
+- <u>Server Environment:</u> Interaction with the gaia.cs.umass.edu server.
 
 
 ## Conclusion
