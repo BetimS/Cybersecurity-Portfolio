@@ -25,7 +25,7 @@ I am an aspiring cybersecurity analyst with a strong foundation in computer scie
 
 - Technologies: Unix/Linux commands, Shell scripting (Bash)
 
-### 4. Incident HAndlers Journal
+### 4. Incident Handlers Journal
 - Documented incident response scenarios and best practices as part of the Google Cybersecurity Professional Certificate.
 
 - Technologies: Cybersecurity concepts, Incident Response methodologies
